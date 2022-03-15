@@ -7,6 +7,109 @@
     <title>CV</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="">About me</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="">Skills</a></li>
+                        <li><a href="">Code Example</a></li>
+                        <li><a href="">Education</a></li>
+                        <li><a href="">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="about">
+                <div class="about__foto"></div>
+                <div class="about__content">
+                    <div class="about__name">Dzmitriy Slabko</div>
+                    <div class="about__text">I am 34 years old and I decided to change my life. I want to become Frontend Developer.</div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <h2>Contacts:</h2>
+                    <ul class="contacts__items">
+                        <li class="contacts__item"><span>Location: </span>Belarus, Minsk</li>
+                        <li class="contacts__item"><span>Phone: </span>+375-29-195-34-03</li>
+                        <li class="contacts__item"><span>E-mail: </span>alertDSG@gmail.com</li>
+                        <li class="contacts__item"><span>GitHub: </span><a href="https://github.com/AlertDSG">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="container">
+                    <h2>Skills:</h2>
+                    <ul class="skills__items">
+                        <li class="skills__item">HTML/CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">Git/GitHub</li>
+                        <li class="skills__item">Figma</li>
+                        <li class="skills__item">Figma</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="code">
+                <div class="container">
+                    <h2>Code example:</h2>
+                    <pre>
+                    <code>
+                        String.prototype.toJadenCase = function () {
+                            return this.split(' ').
+                                map(element => element[0].toUpperCase() + element.slice(1)).join(' ');
+                      };
+                    </code>
+                </pre>
+                </div>
+            </section>
+            <section class="education">
+                <div class="container">
+                    <h2>Education:</h2>
+                    <ul class="education__items">
+                        <li class="skills__item">Belarusian State Agrariantechnical University</li>
+                        <ul>
+                            <li>Economics and Management of the National Economy</li>
+                        </ul>
+                        <li class="skills__item">Internet</li>
+                        <ul>
+                            <li>Codewars</li>
+                            <li>freeCodeCamp</li>
+                            <li>Visual Studio Code</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </ul>
+                </div>
+            </section>
+            <section class="language">
+                <div class="container">
+                    <h2>Language:</h2>
+                    <p>English - A2 in process…</p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <div class="footer__year">&copy 2022</div>
+                    <a href="https://github.com/AlertDSG"><svg height="32" aria-hidden="true" viewBox="0 0 16 16"
+                            version="1.1" width="32" data-view-component="true"
+                            class="octicon octicon-mark-github v-align-middle">
+                            <path fill-rule="evenodd"
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://rs.school/js/"><img  alt="logo rs school"
+                            class="logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
