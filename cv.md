@@ -32,3 +32,19 @@ String.prototype.toJadenCase = function () {
 };
 
 ```
+
+## Education and courses:
+
+- Belarusian State Agrariantechnical University
+    + Economics and Management of the National Economy
+
+- Internet
+  + Codewars
+  + freeCodeCamp
+  + Visual Studio Code
+  + YouTube
+    
+
+## Language:
+
+> - English - A2 in process…
