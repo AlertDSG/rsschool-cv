@@ -27,12 +27,26 @@ I'm 35 years old and I decided to change my life. I'm Frontend Developer.
 
 ```javaScript
 
-String.prototype.toJadenCase = function () {
+function binarySearch(value, list) {
+  let first = 0;
+  let last = list.length - 1;
+  let position = -1;
+  let found = false;
+  let middle;
 
-  return this.split(' ').
-    map(element => element[0].toUpperCase() + element.slice(1)).join(' ');
-
-};
+  while (found === false && first <= last) {
+    middle = Math.floor((first + last)/2);
+    if (list[middle] == value) {
+      found = true;
+      position = middle;
+    } else if (list[middle] > value) {
+      last = middle - 1;
+    } else {
+      first = middle + 1;
+    }
+  }
+  return position;
+}
 
 ```
 
