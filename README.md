@@ -1,1 +1,1 @@
-https://AlertDSG.github.io/rsschool-cv/cv
+https://AlertDSG.github.io/rsschool-cv/
