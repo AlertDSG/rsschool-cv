@@ -1,1 +1,1 @@
-# rsschool-cv
+https://AlertDSG.github.io/rsschool-cv/cv
